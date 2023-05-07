@@ -1,0 +1,17 @@
+voir les ports qui sont ouverts entre 31000 et 32000 et qui sont ceux qui parle SSL et ceux qui ne font pas
+nmap -sV localhost -p 31000-32000
+on a 5ports ouvert dans 2 execute ssl
+voir celui qui ne renvoie pas le mot de passe
+openssl s_client -connect localhost:31790
+>taper le mot de passe actuel
+
+je copie le RSA avec l'en tête et le pied de page
+puis je crée un fichier où on va stocker le RSA (qui est la clé pour le prochain niveau)
+mkdir /tmp/sshkey
+cd /tmp/sshkey
+nano sshkey17.private
+colle le RSA
+changer les autorisations
+chmod 400 sshkey17.private
+et entrer en tant que bandit17
+ssh -i sshkey17.private bandit17@bandit.labs.overthewire.org -p2220

@@ -1,0 +1,6 @@
+entrer dans inhere
+ls inhere
+voir les dossier qui sont dans -a
+ls -a
+lire le dossier .hidden
+cat .hidden

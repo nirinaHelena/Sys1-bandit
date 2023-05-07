@@ -1,0 +1,61 @@
+entrer dans un dossier temporaire
+cd /tmp
+créer un dossier temp
+mktemp -d
+>[solution]
+entrer dans ce dossier
+cd / [le fichier temp créer]
+copier le data.txt dans le dossier temp
+cp ~/data.txt .
+verifier
+ls
+renomer data.txt en hex_data
+mv data.txt hex_data
+verifier
+ls
+voir ce qui est dans le hex_data
+cat hex_data |head
+convertir hex_data(c'est un fichier en hexadécimale) en un fichier fichier binaire appeler compressed_data
+xxd -r hex_data compressed_data
+vérifier 
+ls
+comparer les types de fichier
+binaire: cat compressed_data|head
+cat hex_data
+decompresser le fichier compressed_data
+mv compressed_data compressed_data.gz
+verifier
+ls
+gzip -d compressed_data.gz
+ls
+recompresser le fichier
+xxd compressed_data
+compresser le fichier en .bz2
+mv compressed_data compressed_data.bz2
+verifier
+ls
+décompresser
+bzip2 -d compressed_data.bz2
+compresser le compressed_data en .gz
+mv compressed_data compressed_data.gz
+compresser en .bz
+gzip -d compressed_data.bz
+verifier le compressed_data
+cat compressed_data
+nous allons utilieser tar pour extraire les fichier
+transformer le fichier en .tar
+mv compressed_data compressed_data.tar
+puis extraire le fichier
+tar -xf compressed_data.tar
+decompresson data5.bin
+ tar -xf data5.bin
+decompresser data6.bin
+bzip2 -d data6.bin
+extraire data6.bin.out
+tar -xf data6.bin.out
+décompresser data8.bin en gzi
+xxd data8.bin
+mv data8.bin data8.gz
+gzip -d data8.gz
+lire le data8.gz
+cat data8 

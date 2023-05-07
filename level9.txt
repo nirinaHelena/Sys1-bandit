@@ -1,0 +1,2 @@
+filtrer où la longueur de la ligne est au moins 33
+strings -n 33 data.txt

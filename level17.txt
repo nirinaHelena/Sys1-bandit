@@ -1,0 +1,2 @@
+comparer les 2 fichiers
+diff passwords.old passwords.new

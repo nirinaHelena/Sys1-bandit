@@ -1,0 +1,2 @@
+faire reculer les lettres de 13 lettres
+tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt

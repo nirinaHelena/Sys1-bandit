@@ -1,0 +1,6 @@
+Entrer dans le fichier
+ssh bandit0@bandit.labs.overthewire.org -p2220
+
+lire readme
+cat readme
+le mot de passe s'affiche

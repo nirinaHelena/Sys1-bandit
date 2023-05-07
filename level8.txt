@@ -1,0 +1,2 @@
+filtrer le text où c'est unique
+sort data.txt |uniq -u

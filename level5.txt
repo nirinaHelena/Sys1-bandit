@@ -1,0 +1,5 @@
+entrer dans inhere
+cd inhere
+chercher le fichier qui rempli toutes les conditions
+find -size 1033c -not -executable
+cat ./maybehere07/.file2

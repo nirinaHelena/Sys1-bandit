@@ -1,0 +1,6 @@
+entrer dans inhere
+cd inhere
+voir tous ce qu'il y a dans inhere
+ls
+tester tous, le gagnant est celui qui a une commande qui n'a pas encore servi
+cat -/fichier 

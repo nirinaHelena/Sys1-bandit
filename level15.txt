@@ -1,0 +1,5 @@
+je me connect en tant que bandit15
+je me connect sur le localhhost au port 30001
+openssl s_client -connect localhost:30001
+>j'entre le mot de passe actuel
+il me renvoie un nouveau mot de passe

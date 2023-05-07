@@ -1,0 +1,9 @@
+entrer en tant que bandit13
+voir tous les fichier
+>sshkey.private
+sortir de bandit 13
+puis connecter vous en tant que bandit 14:
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+et lire le fichier /etc/bandit_pass/bandit14
+cat /etc/bandit_pass/bandit14
+ 

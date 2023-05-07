@@ -1,0 +1,4 @@
+connecter vous en tant que bandit14
+connecter vous au port 30000
+taper le mot de passe reçu durant le level 13>level14
+il renvoie le prochaon mot de passe
